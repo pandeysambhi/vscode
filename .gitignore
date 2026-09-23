@@ -2,6 +2,7 @@
 .cache
 npm-debug.log
 Thumbs.db
+/.env
 # No trailing slash, so a symlinked node_modules is ignored too
 node_modules
 .tmp/

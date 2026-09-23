@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"enterprise-integrations": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"${workspaceFolder}/tools/enterprise-mcp/server.mjs"
+			],
+			"envFile": "${workspaceFolder}/.env"
+		}
+	}
+}
